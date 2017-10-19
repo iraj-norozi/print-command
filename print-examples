@@ -1,0 +1,14 @@
+
+str = 'Hello'
+print ('%s best way to use print command') % str
+number1,number2=0,1
+if number1 < number2:
+    print ('Number 1({})  is less than number 2({}) ').format(number1,number2)
+else:
+    print ('Number 1({})  is not less than number 2({}) ').format(number1, number2)
+
+# Equal is tow seperate ||
+
+number1_print =  ('Number 1({})  is less than number 2({}) ').format(number1, number2)
+number2_print =  ('Number 1({})  is not less than number 2({}) ').format(number1, number2)
+print (number1_print) if number1<number2 else   (number2_print)
